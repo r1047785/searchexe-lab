@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Pulse</title>
+    <link rel="stylesheet" href="style-yelle.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="subheader">
+          <div>
+            <a href="../index.html">
+              <img src="img/Logo neon pulse PNG.jpg" alt="" />
+            </a>
+          </div>
+
+          <div class="search-cart">
+            <a href="" class="englishbutton"> EN </a>
+            <input class="searchbar" type="text" placeholder="Zoeken naar..." />
+
+            <a href=""><img src="img/account_circle.svg" alt="" /></a>
+            <a href=""> <img src="img/🦆 icon _simple cart_.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="headernav">
+          <nav>
+            <ul>
+              <li><a href="#">Nieuws</a></li>
+              <li><a href="#" class="active">Over ons</a></li>
+              <li><a href="#">Hoe het werkt</a></li>
+              <li><a href="#">Evenementen</a></li>
+              <li><a href="#">Winkel</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div>
+        <header>
+          <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </header>
+
+        <nav class="menu" id="menu">
+          <a href="#">Mijn account</a>
+          <hr />
+          <a href="#">nieuws</a>
+          <hr />
+          <a href="#">FAQ</a>
+          <hr />
+          <a href="#">Hoe het werkt</a>
+          <hr />
+          <a href="#">Evenementen</a>
+          <hr />
+          <a href="#">winkel</a>
+          <hr />
+          <a href="#">contact</a>
+          <hr />
+          <a href="#">over ons</a>
+        </nav>
+
+        <script>
+          const hamburger = document.getElementById("hamburger");
+          const menu = document.getElementById("menu");
+          const body = document.body;
+
+          hamburger.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            body.classList.toggle("menu-open");
+          });
+        </script>
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="abouttxt">
+          <div class="abouttxt-a">
+            <h2>Wie zijn de oprichters?</h2>
+            <p>
+              Wij zijn Alessio, Amel, Hamza, Jessy, Nunzio, Ryan, Zineb en Zita,
+              de oprichters van Neon Pulse. Als studenten Digital Experience
+              Design aan Thomas More delen we een passie voor technologie,
+              design en gamen.
+            </p>
+          </div>
+          <div class="abouttxt-b">
+            <h2>Waarom hebben we Neon Pulse opgericht?</h2>
+            <p>
+              Met Neon Pulse creëren we een inclusieve gemeenschap waar gamers
+              samenkomen om te verbinden, leren en groeien. Het is een plek waar
+              sociale interactie en gedeelde passie persoonlijke groei,
+              samenwerking en onvergetelijke ervaringen stimuleren.
+            </p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/about us image.jpg" alt="Gaming Community" />
+        </div>
+      </section>
+      <section class="mission-vision">
+        <div>
+          <h2>Onze Missie en Visie</h2>
+        </div>
+        <div class="content">
+          <div class="box mission">
+            <h3>Missie</h3>
+            <p>
+              Bij Neon Pulse creëren we een inclusieve ruimte waar elke gamer
+              zich thuis voelt. Door toernooien, persoonlijke groei en de
+              nieuwste gametrends inspireren en verbinden we elkaar. Doe met ons
+              mee en vorm samen de toekomst van gamingplezier!
+            </p>
+          </div>
+          <div class="box vision">
+            <h3>Visie</h3>
+            <p>
+              Bij Neon Pulse geloven we in de kracht van gaming om mensen samen
+              te brengen en barrières te doorbreken. We streven ernaar de
+              leidende gaminggemeenschap te zijn waar iedereen, ongeacht
+              achtergrond of vaardigheidsniveau, een plek kan vinden om te
+              groeien, leren en genieten.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footerdesk">
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="logo">
+            <img src="img/Logo neon pulse PNG.jpg" alt="" />
+          </div>
+          <p>
+            Onze visie is om een uitzonderlijke ervaring te bieden en spelers te
+            helpen beter te worden in onze gamingcommunity.
+          </p>
+          <div class="social-icons">
+            <a href="#"><img src="img/insta logo.svg" alt="Instagram" /></a>
+            <a href="#"><img src="img/discord logo.svg" alt="Discord" /></a>
+            <a href="#"><img src="img/twitter icon.svg" alt="Twitter" /></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="footer-section">
+            <h4>Over ons</h4>
+            <ul>
+              <li><a href="#">Hoe het werkt</a></li>
+              <li><a href="#">Uitgelicht</a></li>
+              <li><a href="#">Partnerschap</a></li>
+              <li><a href="#">Zakelijke Relatie</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#">Evenementen</a></li>
+              <li><a href="#">Shops</a></li>
+              <li><a href="#">Nieuwsbrief</a></li>
+              <li><a href="#">Community club</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>FAQ’s</h4>
+            <ul>
+              <li><a href="#">Algemeen</a></li>
+              <li><a href="#">Bestellingen</a></li>
+              <li><a href="#">Retouren</a></li>
+              <li><a href="#">Mijn Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <p>&copy;2024-2025 Neon Pulse. Alle rechten voorbehouden.</p>
+        </div>
+        <div>
+          <a href="#">Privacy & Beleid</a>
+          <a href="#">Voorwaarden</a>
+        </div>
+      </div>
+    </footer>
+    <footer class="footermob">
+      <div class="footer-container">
+        <div class="footer-links">
+          <a href="#">Over ons</a>
+          <a href="#">Community</a>
+          <a href="#">FAQ's</a>
+        </div>
+        <div class="social-icons">
+          <a href="#"><img src="img/discord logo.svg" alt="Game Icon" /></a>
+          <a href="#"><img src="img/twitter icon.svg" alt="Twitter" /></a>
+          <a href="#"><img src="img/insta logo.svg" alt="Instagram" /></a>
+        </div>
+        <div class="newsletter">
+          <p>NEWSLETTER</p>
+          <div class="email-input">
+            <input type="email" placeholder="E-MAIL" />
+            <button>&rarr;</button>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy;2024-2025 Neon Pulse. Alle rechten voorbehouden.</p>
+          <div class="policy-links">
+            <a href="#">Privacy & Policy</a>
+            <a href="#">Terms & Condition</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
