@@ -94,7 +94,6 @@
     border: 2px solid #fff;
   }
 
-  nav ul li a.active,
   nav ul li a:hover {
     background-color: #00e6e6;
     color: #190028;
