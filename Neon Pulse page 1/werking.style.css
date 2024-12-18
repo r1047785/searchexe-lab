@@ -54,6 +54,73 @@ header {
   font-weight: bold;
 }
 
+.schrijf {
+  font-weight: bold;
+  margin-left: 15em;
+}
+
+.buttons {
+  display: flex;
+  gap: 2em;
+  margin-left: 11em;
+}
+.btn {
+  border: #00e6e6;
+  border: 2px solid white;
+  border-radius: 1em;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.button-reg {
+  width: 7em;
+}
+
+.btn:hover {
+  background-color: #00e6e6;
+}
+
+.button-inlog {
+  width: 5em;
+}
+
+.title h2 {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 3em;
+  margin-top: 3em;
+}
+.photo img {
+  margin-left: 100px;
+}
+.event a {
+  text-decoration: none;
+}
+.all {
+  display: flex;
+  flex-direction: row;
+  gap: 10em;
+}
+.event {
+  width: 8em;
+  border: #00e6e6;
+  border: 2px solid white;
+  border-radius: 1em;
+  padding: 10px;
+  margin-top: 2em;
+  margin-left: 14em;
+}
+
+.event:hover {
+  background-color: #00e6e6;
+}
+
+.opsommen p {
+  order: 1s;
+  font-size: 0.8em;
+  margin-left: 5.7em;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -118,30 +185,6 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.btn {
-  stroke: rgb(0, 117, 219);
-  display: inline-block;
-  background-color: blue;
-  color: antiquewhite;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 25%;
-  border: 5px solid;
-  border-color: aqua;
-}
-.event {
-  display: inline-block;
-  background-color: blue;
-  color: antiquewhite;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 25%;
-  border: 5px solid aqua;
-  max-width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .vertical-line {
   width: 2px;
   height: 30px;
