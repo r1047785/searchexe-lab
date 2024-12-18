@@ -1,0 +1,233 @@
+body {
+  background-color: rgb(20, 0, 64);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-icon {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  display: none;
+  width: 25px;
+  height: 3px;
+  background-color: #ff0;
+}
+header {
+  padding: 20px;
+}
+
+.navigatie {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headernav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.englishbutton {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #d6fe00;
+  padding-right: 40px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  border: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 50px;
+  background-color: #2c2746;
+  border: 2px solid #fff;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #00e6e6;
+  color: #190028;
+}
+
+.searchbar {
+  background-color: #261632;
+  color: #d6fe00;
+}
+
+.searchbar::placeholder {
+  color: #d6fe00;
+}
+
+.search-cart {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.search-cart input {
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+}
+
+.icon,
+.cart {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.hamburgermenu {
+  display: flex;
+  justify-content: flex-end;
+}
+.gamer {
+  display: none;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.btn {
+  stroke: rgb(0, 117, 219);
+  display: inline-block;
+  background-color: blue;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 25%;
+  border: 5px solid;
+  border-color: aqua;
+}
+.event {
+  display: inline-block;
+  background-color: blue;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 25%;
+  border: 5px solid aqua;
+  max-width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical-line {
+  width: 2px;
+  height: 30px;
+  background-color: white;
+}
+.screen {
+  display: none;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 20px; /* Vergrote tekstgrootte bij 400px of meer */
+  }
+}
+@media (min-width: 600px) {
+  article .top {
+    display: none;
+  }
+  .hamburgermenu {
+    display: none;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  .gamer {
+    display: center right;
+  }
+}
+.screen {
+  display: block;
+}
+div .title {
+  font-size: 48px;
+}
+.btn {
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  display: center;
+}
+.logo {
+  display: none;
+}
+article {
+  display: center right;
+}
+.top {
+  text-align: center left;
+}
+section {
+  text-align: left bottom;
+}
+section p {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.screen article {
+  text-align: center right;
+}
+@media (min-width: 1200px) {
+  .top section {
+    display: none;
+  }
+  section .btn {
+    text-align: center top;
+  }
+  .hamburgermenu {
+    display: none;
+  }
+  .gamer {
+    align-items: center right;
+  }
+  .screen {
+    display: flex;
+    flex-direction: column;
+  }
+  .top {
+    text-align: left;
+  }
+  section {
+    text-align: center left;
+  }
+  section p {
+    font-size: 24px;
+  }
+}
